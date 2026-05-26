@@ -12,6 +12,8 @@
     --w07: rgba(255,255,255,0.07);
     --bd: rgba(255,255,255,0.13);
     --bds: rgba(255,255,255,0.07);
+    --font-family-primary: 'DM Sans', sans-serif;
+    --font-family-secondary: 'Playfair Display', serif;
 }
 
 * {
@@ -23,7 +25,59 @@
 body {
     background: var(--bg);
     color: var(--w); 
-    font-family: 'DM Sans', sans-serif;
+    font-family: var(--font-family-primary)
     font-size:14px; 
     min-height: 100vh;
+}
+
+/* NAV */
+
+nav {
+    background: var(--bg-dark);
+    border-bottom:1px solid var(--bd);
+    padding: 14px 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-brand {
+    /* Content TO APPLY BRAND */
+}
+
+.nav-logo {
+    font-family: var(--font-family-secondary);
+    font-weight: 700; 
+    font-size: 22px;
+    color: var(--w);
+    letter-spacing: 0.03em;
+    line-height: 1;
+}
+
+.nav-craft {
+    font-family: var(--font-family-secondary);
+    font-style: italic;
+    font-size: 11.5px;
+    color:var(--w35);
+    letter-spacing: 0.07em;
+    margin-top: 3px;
+}
+
+.nav-links {
+    display: flex;
+    gap: 28px;
+    align-items: center;
+}
+
+.nav-links a {
+    color: var(--w35);
+    text-decoration: none;
+    font-size: 10.5px;
+    letter-spacing: 0.18em;
+    text-transform: uppercase;
+    transition: color .2s;
+}
+
+.nav-links a:hover {
+    color: var(--w)
 }
