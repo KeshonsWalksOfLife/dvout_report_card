@@ -135,3 +135,70 @@ nav {
     font-size: 13px;
     color: var(--w60);
 }
+
+/* MAIN */
+
+.main {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 24px 20px 64px;
+}
+
+/* INFO ROW */
+
+.info-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding: 16px 0 18px;
+    border-bottom: 1px solid var(--bds);
+    margin-bottom: 20px;
+}
+
+.s-name {
+    font-size:15px;
+    color:var(--w60);
+}
+
+.s-name strong {
+    color: var(--w);
+    font-weight: 500;
+}
+
+.s-inst {
+    font-size: 12px;
+    color: var(--w35);
+    margin-top: 3px;
+    letter-spacing: 0.0 4em;
+}
+
+.gpa-block {
+    text-align: right;
+}
+
+.win-word {
+    font-family: var(--font-family-secondary);
+    font-weight: 700;
+    font-size: 10px;
+    letter-spacing: 0.35em;
+    color: var(--w35);
+    text-transform: uppercase;
+    margin-bottom: 2px;
+}
+
+.gpa-num {
+    font-family: var(--font-family-secondary);
+    font-weight: 700;
+    font-size: 38px;
+    color: var(--w);
+    line-height: 1;
+}
+
+
+.gpa-sub {
+    font-size: 11px;
+    color: var(--w35);
+    letter-spacing: 0.6em;
+    margin-top: 4px;
+}
+
