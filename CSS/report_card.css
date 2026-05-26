@@ -378,3 +378,25 @@ tbody tr:nth-child(even) td {
     color: var(--w35);
 }
 
+/* GRADE */
+
+.grade {
+    font-family: var(--font-family-secondary);
+    font-weight: 600;
+    font-size: 15px;
+    display: inline-block;
+    max-width: 26px;
+    text-align: center;
+}
+
+.g-a {
+    color:var(--w);
+}
+
+.g-b {
+    color: var(--w60);
+}
+
+.g-c {
+    color: var(--w35);
+}
