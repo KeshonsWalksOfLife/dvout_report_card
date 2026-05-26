@@ -236,3 +236,119 @@ nav {
     color: var(--w35);
     white-space: nowrap;
 }
+
+/* PANELS */
+.panel {
+    border: 1px solid var(--bd);
+    border-radius: 6px;
+    margin-bottom: 12px;
+    overflow: hidden;
+}
+
+.p-toggle {
+    width: 100%;
+    background: var(--bg-panel);
+    border: none;
+    padding: 13px 20px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    color: var(--w);
+    font-family: var(--font-family-primary);
+    font-size: 13px;
+    font-weight: 500;
+    text-align: left;
+    letter-spacing: 0.02em;
+    transition: background .2s;
+}
+
+.p-toggle:hover {
+    background: rgba(0,0,0,0.26);
+}
+
+.pip {
+    width: 17px;
+    height: 17px;
+    border: 1px solid var(--w35);
+    letter-spacing: 0.06em;
+}
+
+.p-body {
+    display: none;
+    border-top: 1px solid var(--bds);
+    overflow-x: auto;
+}
+
+.p-body.open {
+    display: block;
+    animation: drop .2s ease;
+}
+
+@keyframes drop{from{
+    opacity: 0; 
+    transform:translateY(-4px)}TO{opacity:1; transform: none;}
+    }
+
+/* TABLES */
+
+table {
+    width:100%;
+    border-collapse: collapse;
+    font-size: 12.5px;
+}
+
+thead th {
+    background: rgba(0,0,0,0.22);
+    color:var(--w35);
+    font-weight: 400;
+    font-size: 10px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    padding: 9px 16px;
+    text-align: left;
+    white-space: nowrap;
+}
+
+tbody td {
+    padding: 10px 16px;
+    border-bottom: 1px solid var(--bds);
+    color: var(--w90);
+    vertical-align: middle;
+}
+
+tbody tr:last-child td {
+    border-bottom: none;
+}
+
+tbody tr:hover td {
+    background: var(--bg-hover);
+}
+
+tbody tr:nth-child(even) td {
+    background: var(--bg-row);
+}
+
+.cc {
+    font-weight: 500;
+    font-size: 13px;
+    color: var(--w);
+    white-space: nowrap;
+}
+
+.cd {
+    color: var(--w60);
+    line-height: 1.4;
+    max-width: 220px;
+}
+
+.dt {
+    white-space: nowrap;
+    color:var(--w35);
+    font-size: 12px;
+}
+
+.cr {
+    text-align: center;
+    color:var(--w35)
+}
