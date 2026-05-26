@@ -400,3 +400,35 @@ tbody tr:nth-child(even) td {
 .g-c {
     color: var(--w35);
 }
+
+/* FOOTER */
+
+.footer {
+    text-align: center;
+    margin-top: 48px;
+    padding-top: 28px;
+    border-top: 1px solid var(--bds);
+}
+
+.foot-logo {
+    font-family: var(--font-family-secondary);
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.14em;
+    color: var(--w35);
+}
+
+.foot-rule {
+    width:72px; 
+    height: 1px;
+    background:var(--w15);
+    margin: 10px auto;
+}
+
+.foot-kwf {
+    font-family: var(--font-family-secondary);
+    font-style: italic;
+    font-size: 12px;
+    color: var(--w35);
+    letter-spacing: 0.1em;
+}
