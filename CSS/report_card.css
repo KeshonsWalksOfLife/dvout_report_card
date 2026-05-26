@@ -1,0 +1,29 @@
+:root {
+    --bg: #555555;
+    --bg-dark: #3a3a3a;
+    --bg-panel: rgba(0,0,0,0.18);
+    --bg-row:rgba(0,0,0,0.08);
+    --bg-hover: rgba(255,255,255,0.05);
+    --w: #ffffff;
+    --w90: rgba(255,255,255,0.9);
+    --w60: rgba(255,255,255,0.6);
+    --w35: rgba(255,255,255,0.35);
+    --w15: rgba(255,255,255,0.15);
+    --w07: rgba(255,255,255,0.07);
+    --bd: rgba(255,255,255,0.13);
+    --bds: rgba(255,255,255,0.07);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: var(--bg);
+    color: var(--w); 
+    font-family: 'DM Sans', sans-serif;
+    font-size:14px; 
+    min-height: 100vh;
+}
