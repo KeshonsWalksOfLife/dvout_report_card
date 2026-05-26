@@ -325,11 +325,34 @@ nav {
 }
 
 .pip {
-    width: 17px;
-    height: 17px;
+    width: 18px;
+    height: 18px;
     border: 1px solid var(--w35);
-    letter-spacing: 0.06em;
+    border-radius: 3px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: 1;
+    color: var(--w);
+    font-family: var(--font-family-primary);
+    transition: background .2s, border-color .2s;
 }
+
+.p-toggle.open .pip {
+    background: var(--w);
+    color: #000;
+    border-color: var(--w);
+}
+
+.p-toggle.open .pip::before {
+    content: "\2212";
+}
+
+.p-toggle:not(.open) .pip::before {
+    content: "+";
+}
+
 
 .p-body {
     display: none;
