@@ -2,15 +2,28 @@
 
 > *Working Craft, Chasing Purpose.*
 
-A personal academic record built as an editorial-style web page — part report card, part manifesto. It tracks the journey toward **Summa Cum Laude** in the B.S. Software Development program at **Grand Canyon University**, where a cumulative GPA of **3.90 – 4.00** is the threshold for the institution's highest academic honor.
+Thank you for joining me on this journey.
 
-This page is the receipt of that pursuit: a living record of the discipline behind the dream.
+This is the start of the evolution.
+
+Mountains are only obstacles to the human eye —
+what if you learned to see past them?
+
+**Keep Walking, Friends.**
+
+This report represents every class and grade earned along the way toward my B.S. in Software Development at Grand Canyon University.
 
 ---
 
-## Live Preview
+### View the Live Page
 
-Open `HTML/report_card.html` directly in a browser, or serve the project root with any static server (e.g. VS Code Live Server, `python3 -m http.server`).
+[**→ DVouT. Academic Record**](https://keshonswalksoflife.github.io/dvout_report_card/)
+
+> **Note:** Navigation links in the top bar (Portfolio, Academic, Contact) are placeholders and not yet active.
+
+---
+
+If you spot any call-outs, typos, or bugs along the way, let me know — I'm genuinely interested in what you're thinking.
 
 ---
 
