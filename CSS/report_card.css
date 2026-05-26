@@ -352,3 +352,29 @@ tbody tr:nth-child(even) td {
     text-align: center;
     color:var(--w35)
 }
+
+/* STATUS BADGES */
+.badge {
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 20px;
+    font-size: 10px;
+    letter-spacing: 0.07em;
+    white-space: nowrap;
+}
+
+.b-cur {
+    border: 1px solid var(--w60);
+    color: var(--w);
+}
+
+.b-sch {
+    border: 1px solid var(--w35);
+    color: var(--w60);
+}
+
+.b-don {
+    border: 1px solid var(--w15);
+    color: var(--w35);
+}
+
